@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initiale-scale=1.0">
+    <meta http-equiv="W-UA-Compatible" content="ie=edge">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>About Me</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait"></div>
+            </div>
+            <ul class="menu-nav">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item current">
+                    <a href="about.html" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="work.html" class="nav-link">My Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">How to reach me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="about">
+        <h1 class="lg-heading">About<span class="text-secondary"> Me</span></h1>
+        <h2 class="sm-heading">Let me tell you a few things...</h2>
+        <div class="about-info">
+            <img class="bio-image" src="img/me.jpg" alt="portrait">
+            <div class="bio">
+                <h3 class="text-secondary">BIO</h3>
+                <p>Hello, I'm Mikaël a Mechanical Engineer specialized in structural calculation, retrained into Web Developer and Data Scientist.</p>
+            </div>
+            <div class="job job-1">
+                <h3>Safran Aero-Systems (aeronautic sector)</h3>
+                <h6>Mechanical Engineer (Crash simulation)</h6>
+                <p>The aim was to study the crash of a civil helicopter tank with simulation (Finite Element Method).
+                The mission was to realize a benchmark between two mechanical crash simulation methods: ALE vs SPH and to decide which one was the
+                most suitable for this type of crash. The validation criteria were strain, Von Mises stress and internal
+                pressure.</p>
+            </div>
+
+            <div class="job job-2">
+                <h3>Safran Aero-Boosters (aeronautic sector)</h3>
+                <h6>Programmer (Python)</h6>
+                <p>My mission was to develop a Python tool. This tool should extract big data from a simulated fan blade
+                loss of a reactor. This data will allow the design office to better size mechanical parts.
+                For this, I highly used pandas library for reading, and the programm created excel files with all the data well organized inside.</p>
+            </div>
+
+            <div class="job job-3">
+                <h3>Web Development Bootcamp (Zero to Mastery Academy)</h3>
+                <h6>Web Developer</h6>
+                <p>After my mission at Safran Aero-Booster, I found programming field very exciting. So I decided to retrain into a Web Developer,
+                    by following an online Bootcamp to become a Full Stack Developer and done many projects using HTML, CSS, Javascript, Bootstrap 4, 
+                    jQuery, Node.js, React, PostgreSQL etc.
+                </p>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer id="main-footer">
+        Copyright &copy; 2020
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
