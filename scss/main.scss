@@ -70,6 +70,14 @@ main {
             margin-top: 20vh;
         }
     }
+
+    .skills {
+
+        &:hover {
+            opacity: 1;
+            @include easeOut();
+        }
+    }
 }
 
 .about-info {
